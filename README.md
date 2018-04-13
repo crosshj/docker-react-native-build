@@ -1,7 +1,10 @@
-# react-native-android
+# docker-react-native-android-build
 Docker React Native build with example project(s).
 
-This started life as a fork of ...   
-Added an example project from ...   
+This started life as a fork of https://github.com/adambene/react-native-android   
+Added an example project from https://github.com/react-native-material-design/demo-app  
 
-Got it all working together.  Customized and modified like crazy.  Built some stuff.
+- [ ] Got a project building an apk.
+- [ ] Installed apk and works on Android phone.
+- [ ] Customized and modified like crazy.   
+- [ ] Built some stuff.
