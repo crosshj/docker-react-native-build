@@ -5,7 +5,8 @@
   "scripts": {
     "start": "react-native start",
     "buildRelease": "cd android && ./gradlew assembleRelease",
-    "installRelease": "cd android && ./gradlew installRelease"
+    "installRelease": "cd android && ./gradlew installRelease",
+    "postinstall": "find ./node_modules -type d -name fbjs -and -not -path ./node_modules/fbjs -print -exec rm -rf \"{}\" \\;"
   },
   "dependencies": {
     "@remobile/react-native-splashscreen": "^1.0.3",

@@ -79,6 +79,8 @@ ENV GOOGLE_COMPONENTS extra-android-m2repository,extra-google-m2repository,extra
 RUN echo y | android update sdk --no-ui --all --filter "${ANDROID_COMPONENTS}" ; \
     echo y | android update sdk --no-ui --all --filter "${GOOGLE_COMPONENTS}"
 
+RUN npm install -g react-native-cli
+
 # Support Gradle
 ENV TERM dumb
 
