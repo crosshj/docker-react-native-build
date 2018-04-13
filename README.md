@@ -1,5 +1,7 @@
 # docker-react-native-android-build
-Docker React Native build with example project(s).
+Docker React Native Android builds with example project(s).
+
+![image](https://user-images.githubusercontent.com/1816471/38717895-aec11612-3eb7-11e8-9568-58ebcd2304c6.png)
 
 ## notes on progress
 This started life as a fork of https://github.com/adambene/react-native-android
@@ -26,7 +28,7 @@ Add another example project from https://github.com/taskrabbit/ReactNativeSample
 - [ ] Customized and modified like crazy.   
 - [ ] Built some stuff.
 - [ ] polish this readme to help anyone in the future that happens on it
-  - what versions of key items are included
-  - screenshots
-  - steps to get it to work (hopefully just a few)
-  - minimize uneeded items, brutal simplification
+  - [ ] what versions of key items are included
+  - [X] screenshots
+  - [ ] steps to get it to work (hopefully just a few)
+  - [ ] minimize uneeded items, brutal simplification
