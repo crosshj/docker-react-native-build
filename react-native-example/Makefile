@@ -11,7 +11,6 @@ build:
 build-debug:
 	docker run -t -i \
 	-v $$(pwd):/workspace \
-	-v $$(pwd)/.gradle/:/home/user/.gradle/ \
 	-w /workspace \
 	-e LOCAL_USER_ID=`id -u $$USER` \
 	adambene/react-native-android /bin/sh \

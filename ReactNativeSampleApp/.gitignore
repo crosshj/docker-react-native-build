@@ -41,3 +41,4 @@ android/app/build/intermediates
 android/app/build/generated
 android/app/build/outputs/lint*
 android/app/build/outputs/logs
+androic/app/build/tmp
