@@ -16,11 +16,12 @@ Add another example project from https://github.com/taskrabbit/ReactNativeSample
   - app would not install
   - rebuilt in debug mode
   - installed fine but show error, fixed with - https://stackoverflow.com/a/38874952/1627873
-  - 
+  - installed, ran fine
+  - will rebuild in release mode to verify
 
 
 # overall status
 - [X] Got a project building an apk.
-- [ ] Installed apk and works on Android phone.
+- [X] Installed apk and works on Android phone.
 - [ ] Customized and modified like crazy.   
 - [ ] Built some stuff.
