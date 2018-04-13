@@ -14,6 +14,9 @@ Added an example project from https://github.com/react-native-material-design/de
 Add another example project from https://github.com/taskrabbit/ReactNativeSampleApp
   - build went fine
   - app would not install
+  - rebuilt in debug mode
+  - installed fine but show error, fixed with - https://stackoverflow.com/a/38874952/1627873
+  - 
 
 
 # overall status
