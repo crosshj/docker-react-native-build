@@ -31,13 +31,12 @@ Add example built from ground up:
   - will explore signed release
   - will explore watch mode (can this work in docker container?)
 
-## overall status
-- [X] Got a project building an apk.
-- [X] Installed apk and works on Android phone.
-- [ ] Customized and modified like crazy.   
-- [ ] Built some stuff.
-- [ ] polish this readme to help anyone in the future that happens on it
+## overall status / goals
+- [X] Got a project building an Android apk.
+- [X] Installed apk and works on Android phone.   
+- [ ] Build some stuff.
+- [ ] Polish readme
   - [ ] what versions of key items are included
   - [X] screenshots
   - [ ] steps to get it to work (hopefully just a few)
-  - [ ] minimize uneeded items, brutal simplification
+  - [X] minimize uneeded items, brutal simplification - see [basic_example](example_projects/basic_example)
