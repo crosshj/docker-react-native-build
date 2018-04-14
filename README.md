@@ -22,6 +22,13 @@ Add another example project from https://github.com/taskrabbit/ReactNativeSample
   - installed, ran fine
   - will rebuild in release mode to verify
 
+Add example built from ground up:
+  - started with just Makefile
+  - ran `react-native init project` to create needed files
+  - built with assets, release and debug modes
+  - now realise that unsigned release will not install on Android
+  - everything seems to work fine
+
 ## overall status
 - [X] Got a project building an apk.
 - [X] Installed apk and works on Android phone.
