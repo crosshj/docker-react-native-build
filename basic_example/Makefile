@@ -25,7 +25,7 @@ build-debug:
 		-e LOCAL_USER_ID=`id -u $$USER` \
 		adambene/react-native-android \
 		/bin/sh \
-		-c "cd android && && ./gradlew clean ./gradlew --stacktrace assembleDebug"
+		-c "cd android && ./gradlew clean && ./gradlew --stacktrace assembleDebug"
 
 run:
 	docker run -t -i \
