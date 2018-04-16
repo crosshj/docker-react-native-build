@@ -18,7 +18,7 @@ export default class HeaderExample extends Component {
   render() {
    return (
      <Container>
-       <Header style={{ backgroundColor: "red" }}>
+       <Header style={{ backgroundColor: "#8BC34A" }}>
          <Left>
            <Button transparent>
              <Icon name='menu' />
@@ -31,53 +31,12 @@ export default class HeaderExample extends Component {
        </Header>
 
        <Content>
-          <Text>Will It Scroll?</Text>
-          <Text>Will It Scroll?</Text>
-          <Text>Will It Scroll?</Text>
-          <Text>Will It Scroll?</Text>
-          <Text>Will It Scroll?</Text>
-          <Text>Will It Scroll?</Text>
-          <Text>Will It Scroll?</Text>
-          <Text>Will It Scroll?</Text>
-          <Text>Will It Scroll?</Text>
-          <Text>Will It Scroll?</Text>
-          <Text>Will It Scroll?</Text>
-          <Text>Will It Scroll?</Text>
-          <Text>Will It Scroll?</Text>
-          <Text>Will It Scroll?</Text>
-          <Text>Will It Scroll?</Text>
-          <Text>Will It Scroll?</Text>
-          <Text>Will It Scroll?</Text>
-          <Text>Will It Scroll?</Text>
-          <Text>Will It Scroll?</Text>
-          <Text>Will It Scroll?</Text>
-          <Text>Will It Scroll?</Text>
-          <Text>Will It Scroll?</Text>
-          <Text>Will It Scroll?</Text>
-          <Text>Will It Scroll?</Text>
-          <Text>Will It Scroll?</Text>
-          <Text>Will It Scroll?</Text>
-          <Text>Will It Scroll?</Text>
-          <Text>Will It Scroll?</Text>
-          <Text>Will It Scroll?</Text>
-          <Text>Will It Scroll?</Text>
-          <Text>Will It Scroll?</Text>
-          <Text>Will It Scroll?</Text>
-          <Text>Will It Scroll?</Text>
-          <Text>Will It Scroll?</Text>
-          <Text>Will It Scroll?</Text>
-          <Text>Will It Scroll?</Text>
-          <Text>Will It Scroll?</Text>
-          <Text>Will It Scroll?</Text>
-          <Text>Will It Scroll?</Text>
-          <Text>Will It Scroll?</Text>
-          <Text>Will It Scroll?</Text>
-          <Text>Will It Scroll?</Text>
-          <Text>Will It Scroll?</Text>
-          <Text>Will It Scroll?</Text>
+          { new Array(100).fill().map((x, i) => {
+            return <Text>Will It Scroll? - {i}</Text>
+          })}
         </Content>
 
-        <Footer>
+        <Footer style={{ backgroundColor: "#8BC34A" }}>
           <FooterTab>
             <Button>
               <Text>Apps</Text>
