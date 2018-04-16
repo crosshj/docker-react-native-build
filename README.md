@@ -32,11 +32,17 @@ Add example built from ground up:
   - will explore watch mode (can this work in docker container?)
 
 ## overall status / goals
-- [X] Got a project building an Android apk.
-- [X] Installed apk and works on Android phone.   
-- [ ] Build some stuff.
-- [ ] Polish readme
-  - [ ] what versions of key items are included
-  - [X] screenshots
-  - [ ] steps to get it to work (hopefully just a few)
-  - [X] minimize uneeded items, brutal simplification - see [basic_example](example_projects/basic_example)
+  - [X] Got a project building an Android apk.
+  - [X] Installed apk and works on Android phone.   
+  - [ ] Build some stuff.
+  - [ ] Polish readme
+    - [ ] what versions of key items are included
+    - [X] screenshots
+    - [ ] steps to get it to work (hopefully just a few)
+    - [X] minimize uneeded items, brutal simplification - see [basic_example](example_projects/basic_example)
+
+
+## speed up builds / performance
+  - [ ] cache gradle
+  - [ ] cache java dependencies
+  - [ ] upgrade build tools
