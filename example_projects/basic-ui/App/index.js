@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import {
   Container, Button, Icon,
   Header, Left, Right, Body, Title,
+  Tabs, Tab, TabHeading,
   Content, Text,
   Footer, FooterTab
 } from 'native-base';
@@ -18,7 +19,7 @@ export default class HeaderExample extends Component {
   render() {
    return (
      <Container>
-       <Header style={{ backgroundColor: "#8BC34A" }}>
+       {/* <Header style={{ backgroundColor: "#8BC34A" }}>
          <Left>
            <Button transparent>
              <Icon name='menu' />
@@ -28,15 +29,33 @@ export default class HeaderExample extends Component {
            <Title>Basic UI with NativeBase</Title>
          </Body>
          <Right />
-       </Header>
+       </Header> */}
 
-       <Content>
-          { new Array(100).fill().map((x, i) => {
-            return <Text>Will It Scroll? - {i}</Text>
-          })}
-        </Content>
+        <Tabs>
+          <Tab heading={ <TabHeading><Text>DEBTS</Text></TabHeading>}>
+            <Content>
+              { new Array(100).fill().map((x, i) => {
+                return <Text>Tab 1: Will It Scroll? - {i}</Text>
+              })}
+            </Content>
+          </Tab>
+          <Tab heading={ <TabHeading><Text>TOTALS</Text></TabHeading>}>
+            <Content>
+              { new Array(100).fill().map((x, i) => {
+                return <Text>Tab 2: Will It Scroll? - {i}</Text>
+              })}
+            </Content>
+          </Tab>
+          <Tab heading={ <TabHeading><Text>ASSETS</Text></TabHeading>}>
+            <Content>
+              { new Array(100).fill().map((x, i) => {
+                return <Text>Tab 3: Will It Scroll? - {i}</Text>
+              })}
+            </Content>
+          </Tab>
+        </Tabs>
 
-        <Footer style={{ backgroundColor: "#8BC34A" }}>
+        {/* <Footer style={{ backgroundColor: "#8BC34A" }}>
           <FooterTab>
             <Button>
               <Text>Apps</Text>
@@ -51,7 +70,7 @@ export default class HeaderExample extends Component {
               <Text>Contact</Text>
             </Button>
           </FooterTab>
-        </Footer>
+        </Footer> */}
      </Container>
    );
  }
