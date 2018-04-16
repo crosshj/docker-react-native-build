@@ -8,6 +8,12 @@ https://facebook.github.io/react-native/docs/headless-js-android.html
 
 # see also
 
+https://medium.com/@pavolfulop/headless-js-react-native-the-missing-parts-d9b265061964
+
+working handling of send(but not connected to headless js):
+  - https://stackoverflow.com/a/33969463/1627873
+  - https://stackoverflow.com/questions/33968688/react-native-write-in-asyncstorage-with-java/33969430#33969430
+
 non-working(?), but more complete examples of headless js api usage:
   - https://stackoverflow.com/questions/46142560/react-native-how-to-create-a-background-service
   - https://stackoverflow.com/questions/40781828/android-background-service-with-react-native
