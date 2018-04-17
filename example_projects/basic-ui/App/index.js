@@ -4,8 +4,11 @@ import {
   Header, Left, Right, Body, Title,
   Tabs, Tab, TabHeading,
   Content, Text,
-  Footer, FooterTab
+  Footer, FooterTab,
+  StyleProvider
 } from 'native-base';
+
+import getTheme from './native-base-theme/components';
 
 import CardList from './CardList';
 
@@ -20,6 +23,7 @@ export default class HeaderExample extends Component {
 
   render() {
    return (
+    <StyleProvider  style={getTheme()}>
      <Container>
        {/* <Header style={{ backgroundColor: "#8BC34A" }}>
          <Left>
@@ -62,6 +66,7 @@ export default class HeaderExample extends Component {
           </FooterTab>
         </Footer> */}
      </Container>
+     </StyleProvider>
    );
  }
 }

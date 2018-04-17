@@ -12,7 +12,7 @@ function cardList(){
                     <CardItem>
                         <Body>
                             <Text>
-                            Tab 2: Will It Scroll? - {i}
+                            Will It Scroll? - {i}
                             </Text>
                         </Body>
                     </CardItem>
