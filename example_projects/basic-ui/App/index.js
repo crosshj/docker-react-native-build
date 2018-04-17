@@ -35,25 +35,13 @@ export default class HeaderExample extends Component {
 
         <Tabs>
           <Tab heading={ <TabHeading><Text>DEBTS</Text></TabHeading>}>
-            <Content>
-              { new Array(100).fill().map((x, i) => {
-                return <Text>Tab 1: Will It Scroll? - {i}</Text>
-              })}
-            </Content>
+            <CardList />
           </Tab>
           <Tab heading={ <TabHeading><Text>TOTALS</Text></TabHeading>}>
-            <Content>
-              { new Array(100).fill().map((x, i) => {
-                return <Text>Tab 2: Will It Scroll? - {i}</Text>
-              })}
-            </Content>
+            <CardList />
           </Tab>
           <Tab heading={ <TabHeading><Text>ASSETS</Text></TabHeading>}>
-            <Content>
-              { new Array(100).fill().map((x, i) => {
-                return <Text>Tab 3: Will It Scroll? - {i}</Text>
-              })}
-            </Content>
+            <CardList />
           </Tab>
         </Tabs>
 
