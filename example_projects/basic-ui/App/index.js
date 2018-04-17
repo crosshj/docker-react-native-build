@@ -7,6 +7,8 @@ import {
   Footer, FooterTab
 } from 'native-base';
 
+import CardList from './CardList';
+
 export default class HeaderExample extends Component {
   async componentWillMount() {
     await Expo.Font.loadAsync({

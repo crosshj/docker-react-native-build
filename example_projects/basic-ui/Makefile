@@ -9,7 +9,7 @@ assets:
 		adambene/react-native-android \
 		-c "npm run android-linux && rm -rf metro-cache-* && rm -rf haste-map*"
 
-build:
+build-release:
 	docker run -t -i \
 		-v $$(pwd):/workspace \
 		-w /workspace \
@@ -18,7 +18,7 @@ build:
 		/bin/sh \
 		-c "cd android && ./gradlew clean && ./gradlew assembleRelease"
 
-build-debug:
+build:
 	docker run -t -i \
 		-v $$(pwd):/workspace \
 		-w /workspace \
